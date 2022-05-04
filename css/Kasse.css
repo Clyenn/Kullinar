@@ -1,0 +1,95 @@
+input[type=text], input[type=password], input[type=email] 
+{
+	vertical-align: middle;
+  	margin: 5px 10px 5px 0;
+  	padding: 10px;
+  	padding: 15px;
+  	border: 1px solid #4C241A;
+	width: 200px;
+	background: transparent;
+	border-radius: 5px;
+	height: 20px;
+	color: #4C241A;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 16px;
+	font-family: 'Modern No. 20';
+}
+
+
+
+button{		
+	margin-right: 15%;
+	background-color: transparent;
+	margin-top: 15px;
+	margin: 5px 10px 5px 0;
+	cursor:pointer;
+	border-radius: 5px;
+	height: 50px;
+	font-family: 'Modern No. 20';
+	font-weight: 300;
+	font-size: 16px;
+	border:1px solid #4C241A;
+	width: 230px;
+	color: #4C241A;
+}
+button:hover {
+  transition: .5s ease-in-out;
+  color: #FAF6EA;
+  background-color: #4C241A;
+}
+
+input[type=text]:focus, input[type=password]:focus, 
+input[type=email]:focus {
+outline: none;
+}
+
+footer{
+	margin: 0;
+	padding-top: 104px;
+}
+
+h1{
+	margin: 35px;
+	color: #4C241A;
+	margin-top: 100px;
+}
+
+form{
+	width: 100%;
+	width: 500px;
+	margin: 20px;
+	display: flex;
+   	flex-flow: wrap;
+  	align-content: space-around;
+  }
+
+textarea{
+	vertical-align: middle;
+  	margin: 5px 10px 5px 0;
+  	padding: 10px;
+  	padding: 15px;
+  	border: 1px solid #4C241A;
+	width: 440px;
+	background: transparent;
+	border-radius: 5px;
+	height: 20px;
+	color: #4C241A;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 16px;
+	font-family: 'Modern No. 20';
+}
+
+*{
+	margin:0;
+	padding: 0;
+}
+body{	background-color: #FAF6EA;
+		font-family: 'Modern No. 20';
+		font-family: 'Neothic';
+		font-family: 'Old Standard TT';
+		font-family: "MADE SAONARA";
+		height:680px;
+		max-height:100%;
+}
